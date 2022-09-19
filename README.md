@@ -1,6 +1,6 @@
 # LMS-RLS-DNN
 
-`d` is the desired signal, where \
+`d` is the desired signal, where $d(t)=\sin(\pi t)+\sin(-\frac{\pi}{2}t)+\sin(-\frac{3\pi}{2}t)$.\
 `y_noise` is the actual signal received.
 
 The length of the signal is $250$ seconds. We will use three methods to filter the noise and compare the performance.
@@ -8,7 +8,7 @@ The length of the signal is $250$ seconds. We will use three methods to filter t
 2. RLS filter
 3. DNN
 
-For detail of these methods, please refer to the slides.
+For the detail of these methods, please refer to the slides.
 
 In the jupyter notebook, we will get three prediction errors.
 They were obtained from
